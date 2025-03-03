@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import BtqnApp from './BtqnApp';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const btqnRoot = ReactDOM.createRoot(document.getElementById('btqnRoot'));
+btqnRoot.render(
   <React.StrictMode>
-    <App />
+    <BtqnApp />
   </React.StrictMode>
 );
 
