@@ -4,10 +4,10 @@ class BtqnEventForm5 extends Component {
     constructor(props){
         super(props);
         this.state = {
-            btqnName:'Chung',
-            btqnAge:45,
-            btqnGender:'Female',
-            btqnCourse:'CSS3'
+            btqnName:'Nga',
+            btqnAge:20,
+            btqnGender:'Male',
+            btqnCourse:'123'
         }
     }
 

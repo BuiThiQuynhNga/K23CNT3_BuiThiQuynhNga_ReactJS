@@ -4,7 +4,9 @@ import BtqnEventForm2 from './components/BtqnEventForm2';
 import BtqnEventForm3 from './components/BtqnEventForm3';
 import BtqnEventForm4 from './components/BtqnEventForm4';
 import BtqnEventForm5 from './components/BtqnEventForm5';
-
+import BtqnRenderCondition from './components/BtqnRenderCondition';
+import BtqnRenderArray from './components/BtqnRenderArray';
+import BtqnRenderListObject from './components/BtqnRenderListObject';
 class BtqnApp extends Component {
 
 
@@ -24,6 +26,10 @@ class BtqnApp extends Component {
           <BtqnEventForm3 />
           <BtqnEventForm4 />
           <BtqnEventForm5 onBtqnHandleSubmit={this.btqnHandleSubmitForm}/>
+          
+          <BtqnRenderCondition />
+          <BtqnRenderArray />
+          <BtqnRenderListObject />
       </div>
     );
   }
