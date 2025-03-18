@@ -1,0 +1,25 @@
+{
+    "users":[
+        {
+            "fullName":"Bùi Thị Quỳnh Nga",
+            "age":20,
+            "class":"K23CNT3"
+        },
+        {
+            "fullName":"Bùi Thị Vân Anh",
+            "age":22,
+            "class":"K23CNT2"
+        },
+        {
+            "fullName":"Nguyễn Thị A",
+            "age":23,
+            "class":"K23CNT1"
+        }
+    ],
+    "students":[
+        {
+            "studentId":"SV0001",
+            "studentName":"Phan Văn Hải"
+        }
+    ]
+}
